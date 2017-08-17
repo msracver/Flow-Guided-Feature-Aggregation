@@ -1,7 +1,7 @@
 # Flow-Guided Feature Aggregation for Video Object Detection
 
 
-This repository is implemented by [Yuqing Zhu](https://github.com/jeremy43), [Shuhao Fu](https://github.com/howardmumu), [Xizhou Zhu](https://github.com/einsiedler0408), when they are interns at MSRA.
+This repository is implemented by [Yuqing Zhu](https://github.com/jeremy43), [Shuhao Fu](https://github.com/howardmumu), and [Xizhou Zhu](https://github.com/einsiedler0408), when they are interns at MSRA.
 
 ## Introduction
 
