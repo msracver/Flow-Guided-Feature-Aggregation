@@ -86,7 +86,7 @@ If you find Flow-Guided Feature Aggregation useful in your research, please cons
 
 ## Requirements: Hardware
 
-Any NVIDIA GPUs with at least 8GB memory should be OK
+Any NVIDIA GPUs with at least 8GB memory should be OK.
 
 ## Installation
 
