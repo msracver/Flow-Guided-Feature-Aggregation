@@ -47,7 +47,7 @@ def createLinks(dets_all):
                 for box1_ind, box1 in enumerate(dets1):
                     areas1[box1_ind] = (box1[2] - box1[0] + 1) * (box1[3] - box1[1] + 1)
             else:
-                areas1 = areas2
+                areas1 = areas2  # noqa areas2 is meant to be an undefined variable
 
             areas2 = np.empty(box2_num)
             for box2_ind, box2 in enumerate(dets2):
