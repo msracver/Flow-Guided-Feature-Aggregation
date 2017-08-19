@@ -13,7 +13,7 @@ label =
 import numpy as np
 import numpy.random as npr
 
-from utils.image import get_image, get_triple_image, tensor_vstack
+from utils.image import get_image, get_pair_image, get_triple_image, tensor_vstack
 from generate_anchor import generate_anchors
 from bbox.bbox_transform import bbox_overlaps, bbox_transform
 
