@@ -34,7 +34,7 @@ This is an official implementation for [Flow-Guided Feature Aggregation for Vide
 
 ## License
 
-© Microsoft, 2017. Licensed under an Apache-2.0 license.
+© Microsoft, 2017. Licensed under the [MIT](LICENSE) License.
 
 ## Citing Flow-Guided Feature Aggregation
 

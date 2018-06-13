@@ -1,3 +1,17 @@
+# --------------------------------------------------------
+# Flow-Guided Feature Aggregation
+# Copyright (c) 2017 Microsoft
+# Licensed under The MIT License [see LICENSE for details]
+# Modified by Yuwen Xiong
+# --------------------------------------------------------
+# Based on:
+# py-faster-rcnn
+# Copyright (c) 2016 by Contributors
+# Licence under The MIT License
+# https://github.com/rbgirshick/py-faster-rcnn
+# --------------------------------------------------------
+
+
 #!/usr/bin/env python
 
 import numpy as np

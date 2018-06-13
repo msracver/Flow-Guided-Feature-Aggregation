@@ -1,11 +1,15 @@
 # --------------------------------------------------------
 # Flow-Guided Feature Aggregation
-# Copyright (c) 2016 by Contributors
 # Copyright (c) 2017 Microsoft
-# Licensed under The Apache-2.0 License [see LICENSE for details]
-# Modified by Yuqing Zhu, Xizhou Zhu
+# Licensed under The MIT License [see LICENSE for details]
+# Modified byYuqing Zhu, Xizhou Zhu
 # --------------------------------------------------------
-
+# Based on:
+# MX-RCNN
+# Copyright (c) 2016 by Contributors
+# Licence under The Apache 2.0 License
+# https://github.com/ijkguo/mx-rcnn/
+# --------------------------------------------------------
 
 import numpy as np
 
