@@ -1078,7 +1078,7 @@ class resnet_v1_101_flownet_rfcn(Symbol):
         warp_list = mx.sym.SliceChannel(conv_feat, axis=0, num_outputs=data_range)
         for i in range(data_range):
             tiled_weight = mx.symbol.tile(data=weights[i], reps=(1, 1024, 1, 1))
-            aggregated_conv_feat += tiled_weight * warp_list[i]
+            aggregated_conv_feat = aggregated_conv_feat + tiled_weight * warp_list[i]
 
         #weights = mx.symbol.tile(data=weights, reps=(1, 1024, 1, 1))
         #aggregated_conv_feat = mx.sym.sum(weights * conv_feat, axis=0, keepdims=True)
